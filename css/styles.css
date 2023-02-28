@@ -692,21 +692,19 @@ img {
 .social-links {
     display: flex;
     list-style: none;
+    justify-content: center;
     gap: 24px;    
 }
 
-
-
 .team-button {
-    padding: 0;
-    margin: 0;
     border-radius: 50px;
     background-color: var(--button-font-color);
     color: var(--button-color); 
     width: 40px;
     height: 40px;
-    display: block;
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .team-button:hover,
@@ -718,7 +716,6 @@ img {
 .team-icon {
     height: 16px;
     width: 16px;
-
 }
 
 .customer-icon {
@@ -752,6 +749,13 @@ img {
     gap: 16px;
 }
 
+.footer-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .links {
     height: 40px;
     width: 40px;
@@ -759,15 +763,18 @@ img {
     color: var(--button-color);
     border-radius: 50px;
     padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-icon {
+    height: 24px;
+    width: 24px;
 }
 
 .links:hover,
 .links:focus {
     background-color: #31D0AA;
     color: var(--button-color);
-} 
-
-.links-icon {
-    height: 24px;
-    width: 24px;
 }
